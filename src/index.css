@@ -57,3 +57,20 @@ a.active {
 	font-size: 3rem;
 	font-weight: 500;
 }
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact_buttons{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	gap:30px;
+	margin: 30px 10px;
+}
+
+.contact_buttons button{
+	padding: 5px 20px;
+} 
